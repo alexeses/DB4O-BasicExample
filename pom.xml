@@ -8,10 +8,26 @@
     <artifactId>ActividadDB40-2.1</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <repositories>
+        <repository>
+            <id>nuxeo</id>
+            <name>nuxeo</name>
+            <url>https://maven-eu.nuxeo.org/nexus/content/repositories/public/</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.db4o</groupId>
+            <artifactId>db4o-core-java5</artifactId>
+            <version>8.0.184.15484</version>
+        </dependency>
+    </dependencies>
+
     <properties>
         <maven.compiler.source>16</maven.compiler.source>
         <maven.compiler.target>16</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    
+
 </project>
